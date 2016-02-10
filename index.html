@@ -10,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="resources/vendor/semantic.min.css">
         <link rel="stylesheet" type="text/css" href="styles.css">
 
-        <title>Reddit with Angular 2</title>
+        <title>flyfree.me with Angular 2</title>
     </head>
     <body>
         <script>
@@ -26,6 +26,18 @@
                     .then(null, console.error.bind(console));
         </script>
 
-        <hello-world></hello-world>
+        <div class="ui menu">
+            <div class="ui container">
+                <div class="header item borderless">
+                    <h1 class="ui header">
+                        flyfree.me - Angular 2
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui main text container">
+            <reddit></reddit> <!-- <--- Our app loads here! -->
+        </div>
     </body>
 </html>
