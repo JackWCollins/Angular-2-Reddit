@@ -112,7 +112,7 @@ class ArticleComponent {
     `
 })
 
-class FlyfreeMeApp {
+class RedditApp {
     articles: Array<Article>;
 
     constructor() {
@@ -135,4 +135,4 @@ class FlyfreeMeApp {
     }
 }
 
-bootstrap(FlyfreeMeApp);
+bootstrap(RedditApp);
